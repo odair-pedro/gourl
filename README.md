@@ -1,5 +1,5 @@
 <p align="center">
-<img src="gourl-gopher.jpg" alt="gourl" title="gourl" />
+<img src="logo.jpg" alt="gourl" title="gourl" />
 </p>
 
 ---
