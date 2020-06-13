@@ -1,4 +1,5 @@
-![Logo](https://iili.io/JjCxoB.png)
+![Logo](https://iili.io/JULgII.jpg)
+
 ---
 
 [![Go Report Card](https://goreportcard.com/badge/github.com/odair-pedro/gourl)](https://goreportcard.com/report/github.com/odair-pedro/gourl)
