@@ -45,12 +45,14 @@ jobs:
           outfile: coverage.lcov
 
     - name: Verify coverage file      
-      run: |
-        ls
+      run: |        
+        echo "out file:"
+        cat coverage.out
+        echo "lcov file:"
         cat coverage.lcov
 
     - name: Coveralls
       uses: coverallsapp/github-action@v1.1.1
       with:
           github-token: ${{ secrets.github_token }}
-          path-to-lcov: ./coverage.lcov
+          path-to-lcov: coverage.lcov
