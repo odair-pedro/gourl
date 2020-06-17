@@ -1,7 +1,15 @@
 package main
 
-func main() {
+import (
+	"github.com/odair-pedro/gourl/fetch"
+	"github.com/odair-pedro/gourl/logging"
+)
 
+var logger = logging.GetLoggerInstance()
+
+func main() {
+	_ = fetch.NewRequestParams("test", 1)
+	logger.Info("I'm alive :)")
 }
 
 //

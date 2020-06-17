@@ -1,10 +1,10 @@
 package fetch
 
 import (
-	"../logging"
 	"errors"
 	"fmt"
 	"github.com/go-playground/validator"
+	"github.com/odair-pedro/gourl/logging"
 	"io"
 	"io/ioutil"
 	"net/http"

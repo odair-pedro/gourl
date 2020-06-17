@@ -1,4 +1,4 @@
-package utils
+package slice
 
 func Filter(slice []interface{}, condition func(interface{}) bool) []interface{} {
 	var result []interface{}
