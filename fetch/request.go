@@ -74,7 +74,10 @@ func fetchUrl(url string, ch chan<- *Response) {
 }
 
 func closeHttpResponse(response *http.Response) {
-	_ = response.Close
+	if response.Body != nil {
+		response.Body.Close()
+	}
+	response.Close = true
 }
 
 //func (urlRequest *UrlRequest) start() {
